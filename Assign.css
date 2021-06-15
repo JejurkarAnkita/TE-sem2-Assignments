@@ -1,0 +1,70 @@
+#a{
+    color :rgb(199, 18, 54);
+}
+#b{
+    color: rgb(0, 89, 255);
+}
+#c{
+    color: red;
+    margin-left: 10%;
+    font-style: oblique;
+    font-size: 22;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    50%{
+        opacity: 20%;
+    }
+}
+#d{
+    color: darkslateblue;
+    margin-left: 15%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+#e{
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+marquee{
+    font-size: 20;
+    font-style: oblique;
+    font-weight: 600;
+    color:blue;
+
+}
+body{
+    background-image: url("backimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#book{
+    margin-right: 10%;
+}
+#clglogo{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+#prev{
+    margin-left: 87%;
+}
+/* unvisited link */
+  a:link {
+    color: rgb(28, 211, 68);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
